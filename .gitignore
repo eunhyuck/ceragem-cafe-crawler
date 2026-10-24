@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Selenium Profile & Cookies (민감정보 보호)
+naver_selenium_profile/
+*/naver_selenium_profile/
+*.crx
+
+# Data Directories (대용량 크롤링 결과물)
+data/
+data_csv/
+data_selenium/
+*/data/
+*/data_csv/
+*/data_selenium/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
